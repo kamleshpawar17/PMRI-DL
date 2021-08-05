@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from encoder_decoder_grappadl import Unet_enc_dec_v1
-from utils import normalize_std, ssim, nmse, psnr, predict_g4zf_all_slc, predict_all_slc, saturate_to_val
+from datagenerator import normalize_std, ssim, nmse, psnr, predict_g4zf_all_slc, predict_all_slc, saturate_to_val
 from scipy import ndimage
 
 
