@@ -25,4 +25,9 @@ python3 predictSim.py brain filename.h5
 ```
 first argument can be ```brain ```  or ```knee```, second argument must be path to *.h5 kspace data file dowloaded from from [fastMRI](https://fastmri.med.nyu.edu/)
 
-
+## Dependencies
+```
+tensorflow==1.14.0
+keras==2.2.4
+pygrappa
+```
