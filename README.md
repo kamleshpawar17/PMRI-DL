@@ -12,9 +12,17 @@ sh setup.sh
 ```
 The ```setup.sh``` will download the data and model weights
 
+Note that it will only download the data for Figure.9 as the data for other figures data must be donwloaded from [fastMRI](https://fastmri.med.nyu.edu/) 
+
 ## To run prediction on experimental data (Figure.9 in the paper)
 ```
 python3 predictExp.py
 ```
+
+## To run prediction for figures 3-8 use 
+```
+python3 predictSim.py brain filename.h5
+```
+first argument can be ```brain ```  or ```knee```, second argument must be path to *.h5 kspace data file dowloaded from from [fastMRI](https://fastmri.med.nyu.edu/)
 
 
