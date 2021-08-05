@@ -12,7 +12,7 @@ sh setup.sh
 ```
 The ```setup.sh``` will download the data and model weights
 
-Note that it will only download the data for Figure.9 as the data for other figures data must be donwloaded from [fastMRI](https://fastmri.med.nyu.edu/) 
+Note that it will only download the data for Figure.9 as the data for other figures must be downloaded from [fastMRI](https://fastmri.med.nyu.edu/) after signing user license agreement. 
 
 ## To run prediction on experimental data (Figure.9 in the paper)
 ```
